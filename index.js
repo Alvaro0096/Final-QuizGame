@@ -161,14 +161,14 @@ const preguntas = [
         pregunta: 'La segunda guerra mundial fue el conflicto bélico más devastador en la historia de la humanidad. ¿Cuál fue la batalla con mayores bajas del conflicto?',
         respuestas: [
             {text: 'Batalla de Las Ardenas', correct: false},
-            {text: 'Batalla de Berlin', correct: false},
+            {text: 'Batalla de Berlín', correct: false},
             {text: 'Batalla de Stalingrado', correct: true},
-            {text: 'Batalla de Normandia', correct: false}
+            {text: 'Batalla de Normandía', correct: false}
         ],
         mensaje: 'La batalla de Stalingrado fue un inmenso enfrentamiento bélico entre el Ejército Rojo de la Unión Soviética y la Wehrmacht de la Alemania nazi y sus aliados del Eje por el control de la ciudad soviética de Stalingrado, actual Volgogrado, entre el 23 de agosto de 1942 y el 2 de febrero de 1943. La batalla se desarrolló en el transcurso de la invasión alemana de la Unión Soviética, en el marco de la Segunda Guerra Mundial. Con bajas estimadas en más de dos millones de personas entre soldados de ambos bandos y civiles soviéticos, la batalla de Stalingrado es considerada la más sangrienta en la historia de la humanidad.'
     },
     {
-        pregunta: 'Al finalizar la segunda guerra mundial dos paises surgieron como las nuevas Super Potencias mundiales. ¿Cuáles eran estos países?',
+        pregunta: 'Al finalizar la segunda guerra mundial dos países surgieron como las nuevas Super Potencias mundiales. ¿Cuáles eran estos países?',
         respuestas: [
             {text: 'USA y URSS', correct: true},
             {text: 'Reino Unido y USA', correct: false},
@@ -218,7 +218,7 @@ const preguntas = [
         mensaje: 'El sistema para medir longitudes en los Estados Unidos se basa en la pulgada, el pie, la yarda y la milla. Cada una de estas unidades tiene dos definiciones ligeramente distintas, lo que ocasiona que existan dos diferentes sistemas de medición. Una pulgada de medida internacional mide exactamente 25,4 mm (por definición), mientras que una pulgada de agrimensor de Estados Unidos se define para que 39,37 pulgadas sean exactamente un metro.'
     },
     {
-        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Estas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cuál de estos arcanos mayores esta asociado al caos?',
+        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Éstas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cuál de estos arcanos mayores está asociado al caos?',
         respuestas: [
             {text: 'La Torre', correct: true},
             {text: 'El Juicio', correct: false},
@@ -235,7 +235,7 @@ const preguntas = [
             {text: 'Fuego Constantino', correct: false},
             {text: 'Fuego Griego', correct: true},
         ],
-        mensaje: 'El Fuego griego fue un arma incendiaria utilizada por el Imperio bizantino en numerosas batallas navales entre los siglos VII y XIII, capaz de arder sobre el agua o incluso en contacto con ella, y extremadamente difícil de apagar. Los ingenieros navales bizantinos dotaron a los barcos de dispositivos hidráulicos que, accionados por una bomba de mano, regaban con fuego la cubierta y las velas de los barcos enemigos.'
+        mensaje: 'El Fuego griego fue un arma incendiaria utilizada por el Imperio Bizantino en numerosas batallas navales entre los siglos VII y XIII, capaz de arder sobre el agua o incluso en contacto con ella, y extremadamente difícil de apagar. Los ingenieros navales bizantinos dotaron a los barcos de dispositivos hidráulicos que, accionados por una bomba de mano, regaban con fuego la cubierta y las velas de los barcos enemigos.'
     }
 ]
 
