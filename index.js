@@ -218,7 +218,7 @@ const preguntas = [
         mensaje: 'El sistema para medir longitudes en los Estados Unidos se basa en la pulgada, el pie, la yarda y la milla. Cada una de estas unidades tiene dos definiciones ligeramente distintas, lo que ocasiona que existan dos diferentes sistemas de medición. Una pulgada de medida internacional mide exactamente 25,4 mm (por definición), mientras que una pulgada de agrimensor de Estados Unidos se define para que 39,37 pulgadas sean exactamente un metro.'
     },
     {
-        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Éstas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cuál de estos arcanos mayores está asociado al caos?',
+        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Estas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cuál de estos arcanos mayores está asociado al caos?',
         respuestas: [
             {text: 'La Torre', correct: true},
             {text: 'El Juicio', correct: false},
