@@ -168,7 +168,7 @@ const preguntas = [
         mensaje: 'La batalla de Stalingrado fue un inmenso enfrentamiento bélico entre el Ejército Rojo de la Unión Soviética y la Wehrmacht de la Alemania nazi y sus aliados del Eje por el control de la ciudad soviética de Stalingrado, actual Volgogrado, entre el 23 de agosto de 1942 y el 2 de febrero de 1943. La batalla se desarrolló en el transcurso de la invasión alemana de la Unión Soviética, en el marco de la Segunda Guerra Mundial. Con bajas estimadas en más de dos millones de personas entre soldados de ambos bandos y civiles soviéticos, la batalla de Stalingrado es considerada la más sangrienta en la historia de la humanidad.'
     },
     {
-        pregunta: 'Al finalizar la segunda gurra mundial dos paises surgieron como las nuevas Super Potencias. ¿Cuáles eran estos paises?',
+        pregunta: 'Al finalizar la segunda gurra mundial dos paises surgieron como las nuevas Super Potencias mundiales. ¿Cuáles eran estos países?',
         respuestas: [
             {text: 'USA y URSS', correct: true},
             {text: 'Reino Unido y USA', correct: false},
@@ -176,6 +176,66 @@ const preguntas = [
             {text: 'China y URSS', correct: false}
         ],
         mensaje: 'La Guerra Fría fue un enfrentamiento político, económico, social, ideológico, militar e informativo iniciado tras finalizar la Segunda Guerra Mundial entre el bloque Occidental (occidental-capitalista), liderado por los Estados Unidos, y el bloque del Este (oriental-comunista), liderado por la Unión Soviética.'
+    },
+    {
+        pregunta: 'Las montañas más altas del mundo estan situadas en Asia concentradas en las cordilleras del Himalaya y el Karakórum. De hecho, las únicas que superan los 7.000 metros están allí. ¿Cúal de estas es la montaña más alta?',
+        respuestas: [
+            {text: 'Everest', correct: true},
+            {text: 'Kanchenjunga', correct: false},
+            {text: 'Lhotse', correct: false},
+            {text: 'Makalu', correct: false},
+        ],
+        mensaje: 'El Monte Everest se encuentra en la cordillera del Himalaya, entre China y Nepal. Mide 8.848 metros de altura sobre el nivel del mar y debe su nombre a la Royal Geographical Society, que en 1865 escuchó a un topógrafo británico de la India llamado Andrew Waugh que decidió ponerle el nombre de su antecesor, sir George Everest.'
+    },
+    {
+        pregunta: 'En la novela 1984 de George Orwell, Ingsoc es el único partido político de Oceanía, un superestado totalitario. ¿Qué significa Ingsoc?',
+        respuestas: [
+            {text: 'Inglaterra Socialista', correct: false},
+            {text: 'Sociedad Inglesa', correct: false},
+            {text: 'Socialismo Inglés', correct: true},
+            {text: 'Socialistas Ingleses', correct: false},
+        ],
+        mensaje: 'Ingsoc, acrónimo de socialismo inglés, es el término del idioma ficticio neolengua con el que se denomina a la ideología del partido gobernante en la novela 1984 de George Orwell. En dicho libro, el Ingsoc no es sólo el nombre del partido político que dirige con mano de hierro los destinos del Estado totalitario intercontinental de Oceanía, una de las tres porciones del mundo en la novela, sino que también de su propia ideología.'
+    },
+    {
+        pregunta: 'En química, se denomina gases nobles o gases inertes a un conjunto de elementos químicos que conforman el grupo 18 (VIIIA) de la Tabla Periódica de los elementos. ¿Cúales de estos elementos pertenecen a esta categoría?',
+        respuestas: [
+            {text: 'Hidrógeno, Oxígeno, Nitrógeno', correct: false},
+            {text: 'Hidrógeno, Helio, Fósforo', correct: false},
+            {text: 'Helio, Oxígeno, Xenón', correct: false},
+            {text: 'Helio, Neón, Xenón', correct: true},
+        ],
+        mensaje: 'Los gases nobles son un grupo de elementos químicos con propiedades muy similares: por ejemplo, bajo condiciones normales, son gases monoatómicos inodoros, incoloros y presentan una reactividad química muy baja. Los siete gases son helio (He), neón (Ne), argón (Ar), kriptón (Kr), xenón (Xe), el radiactivo radón (Rn) y el sintético oganesón (Og).'
+    },
+    {
+        pregunta: 'El sistema anglosajón de unidades es un conjunto de unidades de medida diferentes a las del Sistema métrico decimal, que se utilizan actualmente como medida principal en los Estados Unidos y el Reino Unido (antiguamente). ¿Qué unidades de longitud pertenecen a este sistema?',
+        respuestas: [
+            {text: 'Onza, Pie, Acre, Cuarto', correct: false},
+            {text: 'Pulgada, Pie, Yarda, Milla', correct: true},
+            {text: 'Acre, Onza, Yarda, Milla', correct: false},
+            {text: 'Milla, Dracma, Onza, Cuarto', correct: false},
+        ],
+        mensaje: 'El sistema para medir longitudes en los Estados Unidos se basa en la pulgada, el pie, la yarda y la milla. Cada una de estas unidades tiene dos definiciones ligeramente distintas, lo que ocasiona que existan dos diferentes sistemas de medición. Una pulgada de medida internacional mide exactamente 25,4 mm (por definición), mientras que una pulgada de agrimensor de Estados Unidos se define para que 39,37 pulgadas sean exactamente un metro.'
+    },
+    {
+        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Estas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cúal de estos arcanos mayores esta asociado al caos?',
+        respuestas: [
+            {text: 'La Torre', correct: true},
+            {text: 'El Juicio', correct: false},
+            {text: 'El Colgado', correct: false},
+            {text: 'La Emperatriz', correct: false},
+        ],
+        mensaje: 'Tradicionalmente el tarot asocia la Torre con el caos, la catástrofe y la ruina. La Torre de Babel que es destruida por tener cimientos débiles (la arrogancia). En general, la Torre representa la "ira divina" con el rayo destrozando lo construido y suele interpretarse que vaticina desastres y ruina. Sin embargo, su alegorismo más positivo es que la Torre representa las fuerzas divinas impulsando a la persona, sacándola de su comodidad en la Torre de Marfil para que pueda enfrentarse al mundo, crecer y evolucionar.'
+    },
+    {
+        pregunta: 'Los bizantinos de la Edad Media empleaban una sustancia incendiaria con frecuencia en batallas navales, el mismo representaba una ventaja tecnológica, y fue responsable de varias importantes victorias militares. ¿Cómo se llamaba esta sustancia?',
+        respuestas: [
+            {text: 'Fuego Naval', correct: false},
+            {text: 'Gran Fuego Bizantino', correct: false},
+            {text: 'Fuego Constantino', correct: false},
+            {text: 'Fuego Griego', correct: true},
+        ],
+        mensaje: 'El Fuego griego fue un arma incendiaria utilizada por el Imperio bizantino en numerosas batallas navales entre los siglos VII y XIII, capaz de arder sobre el agua o incluso en contacto con ella, y extremadamente difícil de apagar. Los ingenieros navales bizantinos dotaron a los barcos de dispositivos hidráulicos que, accionados por una bomba de mano, regaban con fuego la cubierta y las velas de los barcos enemigos.'
     }
 ]
 
