@@ -162,7 +162,8 @@ const preguntas = [
         respuestas: [
             {text: 'Batalla de Las Ardenas', correct: false},
             {text: 'Batalla de Berlin', correct: false},
-            {text: 'Batalla de Stalingrado', correct: true}
+            {text: 'Batalla de Stalingrado', correct: true},
+            {text: 'Batalla de Normandia', correct: false}
         ],
         mensaje: 'La batalla de Stalingrado fue un inmenso enfrentamiento bélico entre el Ejército Rojo de la Unión Soviética y la Wehrmacht de la Alemania nazi y sus aliados del Eje por el control de la ciudad soviética de Stalingrado, actual Volgogrado, entre el 23 de agosto de 1942 y el 2 de febrero de 1943. La batalla se desarrolló en el transcurso de la invasión alemana de la Unión Soviética, en el marco de la Segunda Guerra Mundial. Con bajas estimadas en más de dos millones de personas entre soldados de ambos bandos y civiles soviéticos, la batalla de Stalingrado es considerada la más sangrienta en la historia de la humanidad.'
     },

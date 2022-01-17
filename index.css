@@ -105,3 +105,33 @@ body{
 .hide{
     display: none;
 }
+
+@media (max-width: 768px){
+
+.contenedorPregunta{
+    width: 85vw;
+}
+
+.box_pregunta{
+    font-size: 1.2em;
+}
+
+.btn-flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+}
+
+.botones_final{
+    width: 85vw;
+}
+
+.txt_mensaje{
+    font-size: 1.1em;
+}
+
+.hide{
+    display: none;
+}
+
+}
