@@ -118,7 +118,7 @@ function limpiarClase(elemento){
 
 const preguntas = [
     {
-        pregunta: 'Durante la segunda guerra mundial el Reich Aleman, el Reino de Italia y el Imperio de Japón firmaron un pacto formalizando la alianza del Eje. ¿Cómo se llamo este pacto?',
+        pregunta: 'Durante la segunda guerra mundial el Reich Alemán, el Reino de Italia y el Imperio de Japón firmaron un pacto formalizando la alianza del Eje. ¿Cómo se llamó este pacto?',
         respuestas: [
             {text: 'Pacto Tripartito', correct: true},
             {text: 'Pacto de Acero', correct: false},
@@ -128,17 +128,17 @@ const preguntas = [
         mensaje: 'La creciente tensión en el Pacífico llevó a que finalmente el gobierno japonés se aviniera a firmar el 27 de septiembre de 1940 el denominado Pacto Tripartito. Por él, Japón reconocía el liderazgo de Alemania e Italia en Europa y las dos potencias fascistas aceptaban la hegemonía nipona en Asia.'
     },
     {
-        pregunta: 'A lo largo de la Historia de la Humanidad siempre han aparecido pueblos o culturas que se han extendido sobre el territorio, conquistando regiones y expandiendo su influencia cultural, política, económica y militar. Así se han formado los llamados imperios. ¿Cúal de estos imperios es considerado como el más extenso de la historia?',
+        pregunta: 'A lo largo de la Historia de la Humanidad siempre han aparecido pueblos o culturas que se han extendido sobre el territorio, conquistando regiones y expandiendo su influencia cultural, política, económica y militar. Así se han formado los llamados imperios. ¿Cuál de estos imperios es considerado como el más extenso de la historia?',
         respuestas: [
             {text: 'Imperio Mongol', correct: false},
             {text: 'Imperio Español', correct: false},
             {text: 'Imperio Britanico', correct: true},
-            {text: 'Imprerio Romano', correct: false}
+            {text: 'Imperio Romano', correct: false}
         ],
         mensaje: 'El Imperio Británico, con sus numerosas colonias, fue con mucho el más grande de la historia . Sus territorios se encuentran en todos los continentes y en todos los océanos. En 1921, dominaba alrededor de 1/4 de la población mundial (más de 500 millones de personas), o el 40% de la superficie del planeta (casi 33 millones de km²).'
     },
     {
-        pregunta: 'En aerodinámica, la barrera del sonido fue considerada un límite físico que impedía que objetos de gran tamaño se desplazaran a velocidad supersónica. ¿Cúal fue el primer objeto artificial en romper este límite?',
+        pregunta: 'En aerodinámica, la barrera del sonido fue considerada un límite físico que impedía que objetos de gran tamaño se desplazaran a velocidad supersónica. ¿Cuál fue el primer objeto artificial en romper este límite?',
         respuestas: [
             {text: 'El avión', correct: false},
             {text: 'El látigo', correct: true},
@@ -148,7 +148,7 @@ const preguntas = [
         mensaje: 'Al lanzar el látigo, aplicamos al extremo del mango una gran energía. Esta se desplaza por toda la superficie como una onda en movimiento. Como la energía depende de la masa y la velocidad, y el látigo es cada vez más delgado, la energía gana velocidad conforme se acerca al extremo. Al final, el látigo se mueve tan deprisa que rompe la barrera del sonido y provoca así su inconfundible chasquido, que no es otra cosa que un estallido sónico.'
     },
     {
-        pregunta: 'Religión suele definirse como un sistema cultural de determinados comportamientos y prácticas, cosmovisiones, éticas, textos, lugares sagrados, profecías u organizaciones que relacionan la humanidad a elementos sobrenaturales, trascendentales o espirituales. ¿Cúal de estas religiones es considerada la más antigua?',
+        pregunta: 'Religión suele definirse como un sistema cultural de determinados comportamientos y prácticas, cosmovisiones, éticas, textos, lugares sagrados, profecías u organizaciones que relacionan la humanidad a elementos sobrenaturales, trascendentales o espirituales. ¿Cuál de estas religiones es considerada la más antigua?',
         respuestas: [
             {text: 'Budismo', correct: false},
             {text: 'Judaísmo', correct: false},
@@ -158,7 +158,7 @@ const preguntas = [
         mensaje: 'El hinduismo es una religión (dharma) ampliamente practicada en el Sur de Asia. Los hinduistas creen que la suya es la religión más antigua del mundo, y se refieren a ella como «sanatana dharma» (religión eterna). Los eruditos consideran al hinduismo como una fusión o síntesis de varias culturas y tradiciones indias, con diversas raíces y sin ningún fundador. El hinduismo temprano tiene sus orígenes en la civilización del valle del Indo, que existió alrededor de 4.500-5.000 a. C. a 1.800 a. C.'
     },
     {
-        pregunta: 'La segunda guerra mundial fue el conflicto bélico más devastador en la historia de la humanidad. ¿Cúal fue la batalla con mayores bajas del conflicto?',
+        pregunta: 'La segunda guerra mundial fue el conflicto bélico más devastador en la historia de la humanidad. ¿Cuál fue la batalla con mayores bajas del conflicto?',
         respuestas: [
             {text: 'Batalla de Las Ardenas', correct: false},
             {text: 'Batalla de Berlin', correct: false},
@@ -168,7 +168,7 @@ const preguntas = [
         mensaje: 'La batalla de Stalingrado fue un inmenso enfrentamiento bélico entre el Ejército Rojo de la Unión Soviética y la Wehrmacht de la Alemania nazi y sus aliados del Eje por el control de la ciudad soviética de Stalingrado, actual Volgogrado, entre el 23 de agosto de 1942 y el 2 de febrero de 1943. La batalla se desarrolló en el transcurso de la invasión alemana de la Unión Soviética, en el marco de la Segunda Guerra Mundial. Con bajas estimadas en más de dos millones de personas entre soldados de ambos bandos y civiles soviéticos, la batalla de Stalingrado es considerada la más sangrienta en la historia de la humanidad.'
     },
     {
-        pregunta: 'Al finalizar la segunda gurra mundial dos paises surgieron como las nuevas Super Potencias mundiales. ¿Cuáles eran estos países?',
+        pregunta: 'Al finalizar la segunda guerra mundial dos paises surgieron como las nuevas Super Potencias mundiales. ¿Cuáles eran estos países?',
         respuestas: [
             {text: 'USA y URSS', correct: true},
             {text: 'Reino Unido y USA', correct: false},
@@ -178,7 +178,7 @@ const preguntas = [
         mensaje: 'La Guerra Fría fue un enfrentamiento político, económico, social, ideológico, militar e informativo iniciado tras finalizar la Segunda Guerra Mundial entre el bloque Occidental (occidental-capitalista), liderado por los Estados Unidos, y el bloque del Este (oriental-comunista), liderado por la Unión Soviética.'
     },
     {
-        pregunta: 'Las montañas más altas del mundo estan situadas en Asia concentradas en las cordilleras del Himalaya y el Karakórum. De hecho, las únicas que superan los 7.000 metros están allí. ¿Cúal de estas es la montaña más alta?',
+        pregunta: 'Las montañas más altas del mundo estan situadas en Asia concentradas en las cordilleras del Himalaya y el Karakórum. De hecho, las únicas que superan los 7.000 metros están allí. ¿Cuál de estas es la montaña más alta?',
         respuestas: [
             {text: 'Everest', correct: true},
             {text: 'Kanchenjunga', correct: false},
@@ -198,7 +198,7 @@ const preguntas = [
         mensaje: 'Ingsoc, acrónimo de socialismo inglés, es el término del idioma ficticio neolengua con el que se denomina a la ideología del partido gobernante en la novela 1984 de George Orwell. En dicho libro, el Ingsoc no es sólo el nombre del partido político que dirige con mano de hierro los destinos del Estado totalitario intercontinental de Oceanía, una de las tres porciones del mundo en la novela, sino que también de su propia ideología.'
     },
     {
-        pregunta: 'En química, se denomina gases nobles o gases inertes a un conjunto de elementos químicos que conforman el grupo 18 (VIIIA) de la Tabla Periódica de los elementos. ¿Cúales de estos elementos pertenecen a esta categoría?',
+        pregunta: 'En química, se denomina gases nobles o gases inertes a un conjunto de elementos químicos que conforman el grupo 18 (VIIIA) de la Tabla Periódica de los elementos. ¿Cuáles de estos elementos pertenecen a esta categoría?',
         respuestas: [
             {text: 'Hidrógeno, Oxígeno, Nitrógeno', correct: false},
             {text: 'Hidrógeno, Helio, Fósforo', correct: false},
@@ -218,7 +218,7 @@ const preguntas = [
         mensaje: 'El sistema para medir longitudes en los Estados Unidos se basa en la pulgada, el pie, la yarda y la milla. Cada una de estas unidades tiene dos definiciones ligeramente distintas, lo que ocasiona que existan dos diferentes sistemas de medición. Una pulgada de medida internacional mide exactamente 25,4 mm (por definición), mientras que una pulgada de agrimensor de Estados Unidos se define para que 39,37 pulgadas sean exactamente un metro.'
     },
     {
-        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Estas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cúal de estos arcanos mayores esta asociado al caos?',
+        pregunta: 'El tarot es una práctica adivinatoria que se realiza mediante una baraja de 78 cartas compuestas por diferentes arcanos. Estas se dividen en arcanos mayores (22 cartas) y arcanos menores (56 cartas). ¿Cuál de estos arcanos mayores esta asociado al caos?',
         respuestas: [
             {text: 'La Torre', correct: true},
             {text: 'El Juicio', correct: false},
